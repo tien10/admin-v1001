@@ -100,7 +100,7 @@ class App extends React.Component {
     return (
       <div className="container mt-5">
         <div className="row mt-5">
-          <div className="col lg-6 mt-5">
+          <div className="col-3 mt-5">
             <form onSubmit={(e) => { this.submit(e, this.state.id) }}>
               <div className="form-group">
                 <input onChange={(e) => { this.namechange(e) }} placeholder="Username" value={this.state.name} type="text" className="form-control"></input>
@@ -114,7 +114,7 @@ class App extends React.Component {
               <button className="btn btn-block btn-primary">Submit</button>
             </form>
           </div>
-          <div className="col lg-6 mt-5">
+          <div className="col-9 mt-5">
             <table className="table">
               <thead>
                 <tr>
@@ -148,6 +148,7 @@ class App extends React.Component {
               </tbody>
             </table>
           </div>
+          {/* <div className="col"></div> */}
         </div>
       </div>
 

@@ -1,0 +1,9 @@
+get toàn bộ user: https://web-bh-api.herokuapp.com/list_users
+
+get 1 user theo id: https://web-bh-api.herokuapp.com/get_user_id/5f047bc39b7c94000474f861
+
+thêm mới 1 user: https://web-bh-api.herokuapp.com/insert_user
+
+update 1 user theo id: https://web-bh-api.herokuapp.com/update_user/5f047bc39b7c94000474f861
+
+xóa 1 user theo id: https://web-bh-api.herokuapp.com/delete_user
